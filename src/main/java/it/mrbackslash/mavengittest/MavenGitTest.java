@@ -7,6 +7,7 @@ public class MavenGitTest extends JavaPlugin {
     public void onEnable(){
         getLogger().info("THE PLUGIN JUST GOT ENABLED! IT WORKS!");
     }
+    //TESTING SIGNED COMMITS
     @Override
     public void onDisable(){
         getLogger().info("Disabling MavenGitTest!");
